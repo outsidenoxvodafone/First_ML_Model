@@ -12,8 +12,6 @@ lr_clf = LogisticRegression()
 
 lr_clf.fit(X, y)
 
-end_time = time()
+training_time = time() - start_time
 
-print(f"Training time: {end_time-start_time}")
-
-logging.info(f"Training time: {end_time-start_time}")
+logging.info(f"Training time: {training_time}")
