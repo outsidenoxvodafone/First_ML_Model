@@ -14,4 +14,6 @@ lr_clf.fit(X, y)
 
 training_time = time() - start_time
 
+print(f"Training time: {training_time}")
+
 logging.info(f"Training time: {training_time}")
